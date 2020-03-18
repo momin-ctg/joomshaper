@@ -1,0 +1,31 @@
+<svg id="Group_2" data-name="Group 2" xmlns="http://www.w3.org/2000/svg" width="514" height="434" viewBox="0 0 514 434">
+  <g id="b-biconector-up" transform="translate(103 147)">
+    <path id="Line" d="M303,35V0H0V35" transform="translate(0 67)" fill="none" stroke="#6b47de" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6 8"/>
+    <path id="Line-2" data-name="Line" d="M1,60V0" transform="translate(150.122 0.931)" fill="none" stroke="#6b47de" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="6 8"/>
+  </g>
+  <g id="Group" transform="translate(155)">
+    <rect id="Rectangle" width="198" height="144" rx="10" fill="#f6ebde"/>
+    <rect id="Rectangle_Copy" data-name="Rectangle Copy" width="163.237" height="81.095" rx="10" transform="translate(17.382 38.653)" fill="#e2ba83"/>
+    <rect id="Rectangle_Copy_2" data-name="Rectangle Copy 2" width="13.603" height="5.305" rx="2.653" transform="translate(141.321 15.158)" fill="#e2ba83"/>
+    <rect id="Rectangle_Copy_4" data-name="Rectangle Copy 4" width="13.603" height="5.305" rx="2.653" transform="translate(120.16 15.158)" fill="#e2ba83"/>
+    <rect id="Rectangle_Copy_5" data-name="Rectangle Copy 5" width="13.603" height="5.305" rx="2.653" transform="translate(99 15.158)" fill="#e2ba83"/>
+    <rect id="Rectangle_Copy_6" data-name="Rectangle Copy 6" width="13.603" height="5.305" rx="2.653" transform="translate(77.84 15.158)" fill="#e2ba83"/>
+    <rect id="Rectangle_Copy_7" data-name="Rectangle Copy 7" width="27.206" height="10.611" rx="5.305" transform="translate(18.893 12.884)" fill="#e2ba83"/>
+    <rect id="Rectangle_Copy_3" data-name="Rectangle Copy 3" width="13.603" height="5.305" rx="2.653" transform="translate(162.481 15.158)" fill="#e2ba83"/>
+  </g>
+  <g id="Group-2" data-name="Group" transform="translate(316 277)">
+    <rect id="Rectangle-2" data-name="Rectangle" width="198" height="157" rx="10" fill="#def6ef"/>
+    <rect id="Rectangle_Copy-2" data-name="Rectangle Copy" width="163.237" height="80.764" rx="10" transform="translate(17.382 15.096)" fill="#83e2c6"/>
+    <rect id="Rectangle_Copy_4-2" data-name="Rectangle Copy 4" width="75.573" height="30.947" rx="10" transform="translate(105.046 107.183)" fill="#83e2c6"/>
+    <rect id="Rectangle_Copy_2-2" data-name="Rectangle Copy 2" width="75.573" height="11.322" rx="5.661" transform="translate(17.382 107.183)" fill="#83e2c6"/>
+    <rect id="Rectangle_Copy_3-2" data-name="Rectangle Copy 3" width="75.573" height="11.322" rx="5.661" transform="translate(17.382 126.808)" fill="#83e2c6"/>
+  </g>
+  <g id="Group_Copy" data-name="Group Copy" transform="translate(0 277)">
+    <rect id="Rectangle-3" data-name="Rectangle" width="198" height="157" rx="10" fill="#dcd1ff"/>
+    <rect id="Rectangle_Copy-3" data-name="Rectangle Copy" width="163.237" height="50.572" rx="10" transform="translate(17.382 45.288)" fill="#c3b0ff"/>
+    <rect id="Rectangle_Copy_4-3" data-name="Rectangle Copy 4" width="75.573" height="30.947" rx="10" transform="translate(105.046 107.183)" fill="#c3b0ff"/>
+    <rect id="Rectangle_Copy_2-3" data-name="Rectangle Copy 2" width="75.573" height="11.322" rx="5.661" transform="translate(17.382 107.183)" fill="#c3b0ff"/>
+    <rect id="Rectangle_Copy_8" data-name="Rectangle Copy 8" width="163.237" height="11.322" rx="5.661" transform="translate(17.382 15.096)" fill="#c3b0ff"/>
+    <rect id="Rectangle_Copy_3-3" data-name="Rectangle Copy 3" width="75.573" height="11.322" rx="5.661" transform="translate(17.382 126.808)" fill="#c3b0ff"/>
+  </g>
+</svg>

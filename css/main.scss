@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.web-portfolio-area{
+  background: #FFF7F7;
+
+}
+
+
+.web-design-area{
+  .container{
+    background: url("../img/rectangle.svg") no-repeat scroll 0 0;
+  }
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+
+.web-information-architecture-area{
+  .container{
+    background: #F0E2FF;
+    position: relative;
+  }
+}
+
+.info-architecture-box{
+  background: #ffffff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 250px;
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+
+
+
+
+//Bottom Cta Style
+.bottom-cta-area{
+  background: #FFF7F7;
+}
+
+//Footer Style
+.subscription-form {
+  form {
+    display: flex;
+
+    input {
+      flex-grow: 1;
+      padding: 0.5rem 0.75rem;
+    }
+
+    button {
+      padding: 0.5em 0.75em;
+      background: #000000;
+      border: none;
+      color:#ffffff;
+    }
+
+  }
+}

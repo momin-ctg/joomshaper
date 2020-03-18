@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="632.324" height="538.292" viewBox="0 0 632.324 538.292">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.718" y1="0.241" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff55b" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5bcbff" stop-opacity="0.176"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-895.676 -984)">
+    <path id="Rectangle" d="M13.4,111.89A100,100,0,0,1,112.69,0H645V438.263c0,62.362-56.456,109.513-117.82,98.4l-400.489-72.53a100,100,0,0,1-81.47-86.509Z" transform="translate(883 984)" fill="url(#linear-gradient)"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(995 1017)">
+      <g id="Group_6" data-name="Group 6" transform="matrix(0.966, -0.259, 0.259, 0.966, 208.627, 297.461)">
+        <circle id="Oval_Copy_7" data-name="Oval Copy 7" cx="104" cy="104" r="104" fill="#ff964f"/>
+        <text id="Develope" transform="translate(21 75)" font-size="30" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" text-decoration="underline"><tspan x="15.875" y="35">Develope</tspan></text>
+      </g>
+      <g id="Group_5" data-name="Group 5" transform="matrix(0.966, 0.259, -0.259, 0.966, 54.461, 139.627)">
+        <circle id="Oval_Copy_6" data-name="Oval Copy 6" cx="104" cy="104" r="104" fill="#9fbfff"/>
+        <text id="Interaction" transform="translate(21 75)" font-size="30" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" text-decoration="underline"><tspan x="4.1" y="35">Interaction</tspan></text>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(297.933 0.933) rotate(30)">
+        <circle id="Oval" cx="104" cy="104" r="104" transform="translate(0 0)" fill="#fff55b"/>
+        <text id="UI_UX_Copy" data-name="UI/UX Copy" transform="translate(60 79)" font-size="30" font-family="NotoSansKR-Medium, Noto Sans KR" font-weight="500" text-decoration="underline"><tspan x="2.75" y="35">UI/UX</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
