@@ -4,18 +4,21 @@
 }
 
 
-
-
-
 .web-portfolio-area{
-  background: #FFF7F7;
-
+  background-color: #FFF7F7;
+  background-image: url("../img/bgmask.svg");
+  background-position: left top;
+  background-size: 25vw;
+  background-repeat: no-repeat;
 }
 
 
 .web-design-area{
   .container{
-    background: url("../img/rectangle.svg") no-repeat scroll 0 0;
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background: url("../img/bgmask-two.png") no-repeat scroll 0 0;
   }
   background-size: cover;
   height: 500px;
@@ -35,8 +38,8 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 100%;
-  min-height: 250px;
+  width: 400px;
+  min-height: 220px;
   padding: 1.5rem;
   padding-bottom: 0;
 }
