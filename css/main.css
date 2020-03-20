@@ -12,8 +12,6 @@
 }
 
 .web-design-area {
-  background-size: cover;
-  height: 500px;
   width: 100%;
 }
 .web-design-area .container {
@@ -21,9 +19,10 @@
   min-height: 500px;
   width: 100%;
   background: url("../img/bgmask-two.png") no-repeat scroll 0 0;
+  background-size: cover;
 }
 
-.web-information-architecture-area .container {
+.web-architecture-area .container {
   background: #F0E2FF;
   position: relative;
 }
