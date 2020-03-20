@@ -14,9 +14,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
 
   <!--  Bootstrap-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
   <meta name="theme-color" content="#fafafa">
 
@@ -28,6 +29,63 @@
   your browser</a> to improve your experience and security.</p>
 <![endif]-->
 
+
+<!--Slider/Banner Area-->
+<div class="blog-slider__container">
+  <div class="blogSlides fades">
+    <img src="./img/slide-three.jpg">
+    <div class="blog-slider__text">Caption Text</div>
+  </div>
+
+  <div class="blogSlides fades">
+    <img src="./img/slide-one.jpg">
+    <div class="blog-slider__text">Caption Two</div>
+  </div>
+
+  <div class="blogSlides fades">
+    <img src="./img/slide-two.jpg">
+    <div class="blog-slider__text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="22.66" height="38.673" viewBox="0 0 22.66 38.673">
+      <g id="noun_Arrow_2427329" transform="translate(-0.003 -0.663)">
+        <g id="Group" transform="translate(0 0.425)">
+          <path id="Path"
+                d="M22.66,19.3a3.334,3.334,0,0,0-.958-2.312l-16-16A3.337,3.337,0,0,0,.972,5.691L14.618,19.337.972,32.983A3.337,3.337,0,1,0,5.7,37.691l16-16a3.334,3.334,0,0,0,.958-2.4Z"
+                transform="translate(0.003 0.238)" fill="#fff"/>
+        </g>
+      </g>
+    </svg>
+
+
+  </a>
+  <a class="next" onclick="plusSlides(1)">
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="22.66" height="38.673" viewBox="0 0 22.66 38.673">
+      <g id="noun_Arrow_2427329" transform="translate(-0.003 -0.663)">
+        <g id="Group" transform="translate(0 0.425)">
+          <path id="Path"
+                d="M22.66,19.3a3.334,3.334,0,0,0-.958-2.312l-16-16A3.337,3.337,0,0,0,.972,5.691L14.618,19.337.972,32.983A3.337,3.337,0,1,0,5.7,37.691l16-16a3.334,3.334,0,0,0,.958-2.4Z"
+                transform="translate(0.003 0.238)" fill="#715959"/>
+        </g>
+      </g>
+    </svg>
+
+  </a>
+</div>
+<br>
+
+<div class="blogSlider__dots" style="text-align:center">
+  <span class="blogSlider__dots--dot" onclick="currentSlide(1)"></span>
+  <span class="blogSlider__dots--dot" onclick="currentSlide(2)"></span>
+  <span class="blogSlider__dots--dot" onclick="currentSlide(3)"></span>
+</div>
+<!--End Slider/Banner Area-->
+
+
+<!--Start Main Wrap-->
 <div class="main-wrap pb-5">
 
   <!--  part one-->
@@ -138,7 +196,7 @@
   </div>
   <!--End FAQ/CTA Area-->
 
-<!--  Bottom CTA Area-->
+  <!--  Bottom CTA Area-->
   <div class="bottom-cta-area my-5">
     <div class="container py-5">
       <div class="row align-items-center">
@@ -147,12 +205,14 @@
         </div>
         <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
           <h2><strong>Have any question to us? let’s solve here</strong></h2>
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking
             at its layout. The point</p>
 
           <p>It is a long established fact that a reader will be</p>
 
-          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking
             at its layout. The point</p>
 
           <p>How often should I change my windshield wiper blades?</p>
@@ -163,7 +223,7 @@
       </div>
     </div>
   </div>
-<!--  End Bottom CTA Area-->
+  <!--  End Bottom CTA Area-->
 
 
   <!--Bottom Footer Area-->
