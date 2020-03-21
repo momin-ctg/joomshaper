@@ -3,6 +3,33 @@
   padding: 0;
 }
 
+//All Fonts Family
+@font-face {
+  font-family: 'poppins-bold';
+  src: url('../fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Poppins-Bold.woff') format('woff'), url('../fonts/Poppins-Bold.ttf')  format('truetype'), url('../fonts/Poppins-Bold.svg#Poppins-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'poppins-regular';
+  src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Poppins-Regular.woff') format('woff'), url('../fonts/Poppins-Regular.ttf')  format('truetype'), url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'poppins-medium';
+  src: url('../fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Poppins-Medium.woff') format('woff'), url('../fonts/Poppins-Medium.ttf')  format('truetype'), url('../fonts/Poppins-Medium.svg#Poppins-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+//End All Fonts Family
+
 
 /* Slideshow container */
 
@@ -206,11 +233,44 @@
 //Middle CTA Area
 
 .middle-cta-area{
-  background-image: url("../img/plus-one.svg"), url("../img/plus-two.svg");
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/cs-bg.png");
   background-repeat: no-repeat;
-  background-position: left center, right top;
-  background-size:contain, 100%;
+  background-position: left center;
+  background-size:cover, 100%;
   width: 100%;
+}
+
+.svg-background-image{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    will-change: transform;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  //img:last-child{
+  //  position: absolute;
+  //  right: 0;
+  //  bottom: 0;
+  //  object-fit: contain;
+  //  will-change: transform;
+  //  object-position: right;
+  //  width: 100%;
+  //  height: 100%;
+  //}
 }
 
 
