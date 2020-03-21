@@ -5,7 +5,45 @@ $paragraph-color: #676767;
 $header-color: #272742;
 $black-color: #000000;
 
+//Slider Content style
+.slide-text-content{
+  h2{
+    font-family: $poppins;
+    color: $black-color;
+    font-weight: 700;
+    font-size: 4rem;
+  }
 
+  p{
+    font-family: $poppins;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: $header-color;
+  }
+}
+
+.slider-content-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  a.slider-btn{
+    text-decoration: none;
+    background: #000;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 0.5rem 0.8rem;
+  }
+
+  a.slider-link{
+    font-family: $noto-sans;
+    font-weight: 500;
+    font-size: 1rem;
+    color: $black-color;
+    text-decoration: underline;
+    text-decoration-style: solid;
+  }
+}
 /* Slideshow container */
 
 .blog-slider__container {
