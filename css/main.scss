@@ -254,6 +254,17 @@ $black-color:#000000;
   background: #FFF7F7;
 }
 
+.bottom-cta{
+  font-family: $poppins;
+  h2{
+    color: $black-color;
+  }
+  p{
+    font-family: inherit;
+    color: $paragraph-color;
+  }
+}
+
 //Footer Style
 .footer-subscription-area{
   font-family: $poppins ;

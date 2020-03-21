@@ -203,6 +203,17 @@
   background: #FFF7F7;
 }
 
+.bottom-cta {
+  font-family: "Poppins", sans-serif;
+}
+.bottom-cta h2 {
+  color: #000000;
+}
+.bottom-cta p {
+  font-family: inherit;
+  color: #676767;
+}
+
 .footer-subscription-area {
   font-family: "Poppins", sans-serif;
 }
