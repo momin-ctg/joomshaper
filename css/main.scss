@@ -1,10 +1,9 @@
-
 //Common Variable Declare
-$poppins:'Poppins', sans-serif;
-$noto-sans:'Noto Sans KR', sans-serif;
-$paragraph-color:#676767;
-$header-color:#272742;
-$black-color:#000000;
+$poppins: 'Poppins', sans-serif;
+$noto-sans: 'Noto Sans KR', sans-serif;
+$paragraph-color: #676767;
+$header-color: #272742;
+$black-color: #000000;
 
 
 /* Slideshow container */
@@ -13,7 +12,7 @@ $black-color:#000000;
   max-width: 90%;
   position: relative;
   margin: 50px auto;
-  height:420px;
+  height: 420px;
   overflow: hidden;
 
   .blogSlides img {
@@ -41,9 +40,10 @@ $black-color:#000000;
   border-radius: 50%;
   background: #FD984D;
   color: #ffffff;
-  svg{
+
+  svg {
     transition: all 0.6s ease-in-out;
-    fill:#ffffff;
+    fill: #ffffff;
     height: 18px;
     width: 12px;
   }
@@ -54,7 +54,8 @@ $black-color:#000000;
 .next {
   right: 0;
 }
-.prev{
+
+.prev {
   transform: rotate(180deg);
 }
 
@@ -64,8 +65,9 @@ $black-color:#000000;
 .prev:hover,
 .next:hover {
   background: darken(#FD984D, 20%);
-  svg{
-    fill:#715959;
+
+  svg {
+    fill: #715959;
   }
 }
 
@@ -156,6 +158,32 @@ $black-color:#000000;
   background-repeat: no-repeat;
 }
 
+//part one Style
+.business-need {
+  font-family: $poppins;
+
+  h2 {
+    font-family: inherit;
+    font-weight: 700;
+    color: $black-color;
+  }
+
+  p {
+    font-family: $poppins;
+    color: $paragraph-color;
+    font-size: 0.9rem;
+  }
+
+  a {
+    font-family: $noto-sans;
+    font-weight: 500;
+    font-size: 1rem;
+    color: $black-color;
+    text-decoration: underline;
+    text-decoration-style: solid;
+  }
+}
+
 
 .web-interface-area {
   .container {
@@ -198,31 +226,58 @@ $black-color:#000000;
   bottom: 0;
   width: 400px;
   min-height: 220px;
-  padding: 1.5rem;
-}
+  padding: 1.8rem;
+  font-family: $poppins;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 
+  h3 {
+    font-family: inherit;
+    color: $header-color;
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-family: inherit;
+    color: $paragraph-color;
+    font-size: .9rem;
+  }
+
+  a {
+    font-family: $noto-sans;
+    font-weight: 500;
+    font-size: 1rem;
+    color: $black-color;
+    text-decoration: underline;
+    text-decoration-style: solid;
+  }
+}
 
 
 //Middle CTA Area
 
-.middle-cta-area{
+.middle-cta-area {
   position: relative;
   overflow: hidden;
   background-image: url("../img/cs-bg.png");
   background-repeat: no-repeat;
   background-position: left center;
-  background-size:cover, 100%;
+  background-size: cover, 100%;
   width: 100%;
 }
 
-.svg-background-image{
+.svg-background-image {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   top: 0;
   width: 100%;
-  img{
+
+  img {
     position: absolute;
     top: 0;
     left: 0;
@@ -234,6 +289,7 @@ $black-color:#000000;
     width: 100%;
     height: 100%;
   }
+
   //img:last-child{
   //  position: absolute;
   //  right: 0;
@@ -246,20 +302,21 @@ $black-color:#000000;
   //}
 }
 
-.middle-cta-content{
+.middle-cta-content {
   font-family: $poppins;
-  h2{
+
+  h2 {
     font-weight: 700;
     color: $black-color;
   }
 
-  p{
+  p {
     font-family: inherit;
     color: $paragraph-color;
     font-size: .9rem;
   }
 
-  a{
+  a {
     font-family: $noto-sans;
     font-weight: 500;
     font-size: 1.1rem;
@@ -270,60 +327,65 @@ $black-color:#000000;
 }
 
 
-
-
 //Bottom Cta Style
 .bottom-cta-area {
   background: #FFF7F7;
 }
 
-.bottom-cta{
+.bottom-cta {
   font-family: $poppins;
-  h2{
+
+  h2 {
     color: $black-color;
   }
-  p{
+
+  p {
     font-family: inherit;
     color: $paragraph-color;
   }
 }
 
 //Footer Style
-.footer-subscription-area{
-  font-family: $poppins ;
-  h2{
+.footer-subscription-area {
+  font-family: $poppins;
+
+  h2 {
     font-family: inherit;
     font-weight: 700;
   }
-  strong{
+
+  strong {
     font-family: inherit;
     font-weight: 500;
     display: inline-block;
     font-size: 1.2rem;
   }
 
-  p{
+  p {
     font-family: inherit;
     font-weight: normal;
-    color:$paragraph-color;
-  };
+    color: $paragraph-color;
+  }
+;
 }
 
 .subscription-form {
   form {
-    display:inline-flex;
+    display: inline-flex;
     width: 100%;
     @media (min-width: 601px) {
-      display:inline-flex;
+      display: inline-flex;
       width: 420px;
     }
+
     input {
       flex-grow: 1;
       padding: 0.5rem 0.75rem;
       border-top-left-radius: 4px;
       border-bottom-left-radius: 4px;
-      border:1px solid $black-color;
-      &:hover, &:focus{
+      border: 1px solid $black-color;
+
+      &:hover, &:focus {
         outline: none;
       }
     }

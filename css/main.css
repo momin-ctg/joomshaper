@@ -131,6 +131,28 @@
   background-repeat: no-repeat;
 }
 
+.business-need {
+  font-family: "Poppins", sans-serif;
+}
+.business-need h2 {
+  font-family: inherit;
+  font-weight: 700;
+  color: #000000;
+}
+.business-need p {
+  font-family: "Poppins", sans-serif;
+  color: #676767;
+  font-size: 0.9rem;
+}
+.business-need a {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
 .web-interface-area .container {
   background: #F6DEDE;
   position: relative;
@@ -165,7 +187,31 @@
   bottom: 0;
   width: 400px;
   min-height: 220px;
-  padding: 1.5rem;
+  padding: 1.8rem;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.info-architecture-box h3 {
+  font-family: inherit;
+  color: #272742;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.info-architecture-box p {
+  font-family: inherit;
+  color: #676767;
+  font-size: 0.9rem;
+}
+.info-architecture-box a {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-style: solid;
 }
 
 .middle-cta-area {
