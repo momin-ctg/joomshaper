@@ -199,6 +199,27 @@
   height: 100%;
 }
 
+.middle-cta-content {
+  font-family: "Poppins", sans-serif;
+}
+.middle-cta-content h2 {
+  font-weight: 700;
+  color: #000000;
+}
+.middle-cta-content p {
+  font-family: inherit;
+  color: #676767;
+  font-size: 0.9rem;
+}
+.middle-cta-content a {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
 .bottom-cta-area {
   background: #FFF7F7;
 }
