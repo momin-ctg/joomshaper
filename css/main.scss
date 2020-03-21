@@ -202,6 +202,20 @@
 }
 
 
+
+//Middle CTA Area
+
+.middle-cta-area{
+  background-image: url("../img/plus-one.svg"), url("../img/plus-two.svg");
+  background-repeat: no-repeat;
+  background-position: left center, right top;
+  background-size:contain, 100%;
+  width: 100%;
+}
+
+
+
+
 //Bottom Cta Style
 .bottom-cta-area {
   background: #FFF7F7;
