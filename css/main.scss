@@ -26,6 +26,7 @@ $black-color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  flex-flow: row wrap;
 
   a.slider-btn{
     text-decoration: none;
