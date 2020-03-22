@@ -110,30 +110,6 @@ $black-color: #000000;
 }
 
 
-/* Caption text */
-
-.blog-slider__text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-/* Number text (1/3 etc) */
-
-.blog-slider__numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
 /* The dots/bullets/indicators */
 
 .blogSlider__dots {
@@ -169,7 +145,7 @@ $black-color: #000000;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
+@-webkit-keyframes fades {
   from {
     opacity: .4
   }
@@ -190,10 +166,10 @@ $black-color: #000000;
 
 .main-wrap {
   background-color: #FFF7F7;
-  background-image: url("../img/bgmask.svg");
-  background-position: left top;
-  background-size: 25vw;
-  background-repeat: no-repeat;
+  background-image: url("../img/bgmask.svg"), url("../img/cs-bg.svg");
+  background-position: left top, left 58%;
+  background-size: 30vw, 100%;
+  background-repeat: no-repeat, no-repeat;
 }
 
 //part one Style
@@ -300,7 +276,7 @@ $black-color: #000000;
 .middle-cta-area {
   position: relative;
   overflow: hidden;
-  background-image: url("../img/cs-bg.png");
+  //background-image: url("../img/cs-bg.svg");
   background-repeat: no-repeat;
   background-position: left center;
   background-size: cover, 100%;

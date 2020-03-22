@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1742" viewBox="0 0 1920 1742">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="1920" height="1742" transform="translate(0 2459.5)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.434" y1="0.613" x2="0.154" y2="0.983" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f5f8"/>
+      <stop offset="1" stop-color="#ffe4fe"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0 -2459.5)" clip-path="url(#clip-path)">
+    <path id="Combined_Shape" data-name="Combined Shape" d="M1107.9,1758.905l-78.859-59.185a195,195,0,0,0-117.053-39.04H0V1080.77H1385.025a195.011,195.011,0,0,0,41.423-4.45l145.054-31.532a195.011,195.011,0,0,1,29.05-4.058q1.883-6.825,4.259-13.5L1963,20.516S3324.586-145.471,2612.439,1031.5l-692.472,427.57v76.513c0,72.934-49.509,141.506-118.738,164.455-27.524-7.616-99.887,5.07-99.887,5.07l-437.554,88.926a194.978,194.978,0,0,1-155.889-35.133Z" transform="translate(0 2372)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
