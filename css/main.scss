@@ -455,7 +455,7 @@ $black-color: #000000;
 .subscription-form {
   form {
     display: inline-flex;
-    width: 100%;
+    width: auto;
     @media (min-width: 601px) {
       display: inline-flex;
       width: 420px;
