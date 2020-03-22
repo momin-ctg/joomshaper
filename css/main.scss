@@ -519,21 +519,25 @@ $black-color: #000000;
 
 //Accordion Style
 
-.js-t-accordion{
+.js-t-accordion {
   font-family: $poppins;
-  ul{
+
+  ul {
     padding: 0;
   }
+
   h4 {
-      font-size: 0.9rem;
-      font-family:inherit ;
-     cursor: pointer;
+    font-size: 0.9rem;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
   }
+
   li div {
     height: 0;
     opacity: 0;
     background-color: #FFECEC;
-    transition:all 0.4s ease;
+    transition: height 0.4s ease;
     color: $paragraph-color;
     font-family: $poppins;
     font-size: 0.9rem;
@@ -549,9 +553,9 @@ $black-color: #000000;
     padding: 0.6rem;
   }
 
-  li h4.actives+div {
+  li h4.actives + div {
     opacity: 1;
-    min-height: 120px;
+    height: 120px;
     padding: 0.9rem;
   }
 }
