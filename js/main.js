@@ -37,7 +37,6 @@ function showSlides(n) {
 
 
 (function(){
-
   let d = document;
   let ul = d.querySelector('.according-list');
   let h4s = d.querySelectorAll('h4');
