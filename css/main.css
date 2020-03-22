@@ -415,7 +415,6 @@
   .subscription-form form {
     display: inline-flex;
     flex-direction: row;
-    width: 420px;
   }
 }
 .subscription-form form input {
@@ -432,6 +431,7 @@
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border: 1px solid #000000;
+    margin-bottom: 0;
   }
 }
 .subscription-form form input:hover, .subscription-form form input:focus {
