@@ -380,6 +380,10 @@
   color: #676767;
 }
 
+.footer-area {
+  overflow: hidden;
+}
+
 .footer-subscription-area {
   font-family: "Poppins", sans-serif;
 }
@@ -399,22 +403,37 @@
   color: #676767;
 }
 
+.subscription-form {
+  overflow: hidden;
+}
 .subscription-form form {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   width: auto;
 }
 @media (min-width: 601px) {
   .subscription-form form {
     display: inline-flex;
+    flex-direction: row;
     width: 420px;
   }
 }
 .subscription-form form input {
   flex-grow: 1;
-  padding: 0.5rem 0.75rem;
+  padding: 0.8rem 0.5rem;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: 1px solid #000000;
+  margin-bottom: 0.5rem;
+}
+@media (min-width: 601px) {
+  .subscription-form form input {
+    flex-grow: 1;
+    padding: 0.5rem 0.75rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #000000;
+  }
 }
 .subscription-form form input:hover, .subscription-form form input:focus {
   outline: none;
@@ -422,6 +441,7 @@
 .subscription-form form button {
   padding: 1.2rem;
   background: #000000;
+  flex-shrink: 0;
   border: none;
   color: #ffffff;
   border-radius: 4px;
