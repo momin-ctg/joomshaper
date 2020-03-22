@@ -1,3 +1,6 @@
+
+// Slider Initialize
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -28,3 +31,23 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+
+// Accordion
+
+
+(function(){
+
+  let d = document;
+  let ul = d.querySelector('.according-list');
+  let h4s = d.querySelectorAll('h4');
+  ul.addEventListener('click', function(e){
+    for (let i = 0; i < h4s.length; i++) {
+      h4s[i].classList.remove('actives');
+    }
+
+    if (e.target && e.target.nodeName == 'H4') {
+      e.target.classList.toggle('actives');
+    }
+  });
+})();

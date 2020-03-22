@@ -462,4 +462,38 @@
   }
 }
 
+.js-t-accordion {
+  font-family: "Poppins", sans-serif;
+}
+.js-t-accordion ul {
+  padding: 0;
+}
+.js-t-accordion h4 {
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.js-t-accordion li div {
+  height: 0;
+  opacity: 0;
+  background-color: #FFECEC;
+  transition: all 0.4s ease;
+  color: #676767;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+.js-t-accordion li {
+  list-style: none;
+  width: 100%;
+}
+.js-t-accordion li h4 {
+  background-color: #ffffff;
+  padding: 0.6rem;
+}
+.js-t-accordion li h4.actives + div {
+  opacity: 1;
+  min-height: 120px;
+  padding: 0.9rem;
+}
+
 /*# sourceMappingURL=main.css.map */
