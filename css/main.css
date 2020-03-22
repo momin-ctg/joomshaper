@@ -471,8 +471,12 @@
 .js-t-accordion h4 {
   font-size: 0.9rem;
   font-family: inherit;
-  cursor: pointer;
   font-weight: 500;
+}
+.js-t-accordion li {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 .js-t-accordion li div {
   height: 0;
@@ -482,6 +486,9 @@
   color: #676767;
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .js-t-accordion li {
   list-style: none;
