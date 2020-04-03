@@ -1,5 +1,8 @@
-
-// Slider Initialize
+/**
+ *
+ * Slider Initialize
+ *
+ */
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -33,14 +36,15 @@ function showSlides(n) {
 }
 
 
-// Accordion
+/**
+ * Accordion
+ */
 
-
-(function(){
+(function () {
   let d = document;
   let ul = d.querySelector('.according-list');
   let h4s = d.querySelectorAll('h4');
-  ul.addEventListener('click', function(e){
+  ul.addEventListener('click', function (e) {
     for (let i = 0; i < h4s.length; i++) {
       h4s[i].classList.remove('actives');
     }
